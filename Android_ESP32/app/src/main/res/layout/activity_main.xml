@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<EditText
+    android:id="@+id/editTextUrl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/wz"
+    android:inputType="textUri" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:id="@+id/buttonLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jz" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重新连接" />
+
+    <Button
+        android:id="@+id/btn_rest_yj_esp"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:text="@string/复位esp"
+        android:textSize="12dp"
+        />
+    <Button
+        android:id="@+id/btn_rest_yj_stm"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:text="@string/复位stm"
+        android:textSize="12dp"
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonZoomIn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/big" />-->
+<!--    <Button-->
+<!--        android:id="@+id/buttonZoomOut"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/small" />-->
+</LinearLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="338dp"
+        android:layout_height="334dp"
+        android:layout_gravity="center"
+        android:rotation="90" />
+
+    <Button
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25sp"
+
+        android:rotation="90"
+        android:text="@string/left" />
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="98dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="30dp"
+            android:rotation="90"
+            android:text="@string/down" />
+
+        <Button
+            android:id="@+id/btn_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:rotation="90"
+            android:text="@string/up" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:rotation="90"
+        android:text="@string/right" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_V_Updat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:rotation="90"
+            android:text="@string/vUpdata" />
+        <TextView
+            android:id="@+id/textView_v_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:layout_marginStart="180dp"
+            android:text="@string/base_v"/>
+        <TextView
+            android:id="@+id/textView_V_text"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:rotation="90"
+            android:text="@string/base_v_text" />
+    </LinearLayout>
+</LinearLayout>

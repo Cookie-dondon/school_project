@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ESP32-S3</string>
+    <string name="jz">加载网页</string>
+    <string name="big">放大</string>
+    <string name="small">减小</string>
+    <string name="wz">请输入网址</string>
+    <string name="xz">旋转90度</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="down">下</string>
+    <string name="up">上</string>
+    <string name="vUpdata">更改速度</string>
+    <string name="base_v">5</string>
+    <string name="base_v_text">基准速度</string>
+    <string name="复位stm">R-S</string>
+    <string name="复位esp">R-E</string>
+</resources>
